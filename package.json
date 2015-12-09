@@ -1,0 +1,29 @@
+{
+  "name": "Longtest",
+  "version": "0.1.0",
+  "description": "Tests a set of http calls over time and recording metrics with every call.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://althalus86@bitbucket.org/althalus86/longtest.git"
+  },
+  "keywords": [
+    "Node",
+    "Test",
+    "scheduler",
+    "http"
+  ],
+  "author": "AiON Software",
+  "license": "Copyright 2015",
+  "dependencies": {
+    "colors": "^1.1.2",
+    "cron": "^1.1.0",
+    "graceful-fs": "^4.1.2",
+    "moment": "^2.10.6",
+    "performance-now": "^0.2.0",
+    "request": "^2.67.0"
+  }
+}
